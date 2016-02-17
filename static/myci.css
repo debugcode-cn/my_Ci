@@ -1,0 +1,12 @@
+/*
+本样式文件放在模版文件header.php中,决定各个视图的样式
+*/
+*{
+    margin:0;
+    padding: 0;
+    border:1px solid red;
+}
+
+/*header.php*/
+
+

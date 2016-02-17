@@ -11,6 +11,18 @@
 <head>
     <meta charset="UTF-8">
     <title><?php echo $title?></title>
+    <link rel="stylesheet" href="../static/myci.css">
+    <script style="text/javascript" src="../static/jquery-2.1.4.min.js"></script>
 </head>
 <body>
-<h1><?php echo $title?></h1>
+<script style="text/javascript">
+    $(document).ready(function(){
+        alert('hi')
+    })
+</script>
+<h1>
+    <?php
+    echo $title;
+//    echo base_url();
+    ?>
+</h1>
